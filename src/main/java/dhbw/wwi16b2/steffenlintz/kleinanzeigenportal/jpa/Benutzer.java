@@ -80,10 +80,6 @@ public class Benutzer {
         return anzeige;
     }
 
-    public BenutzerMerk getBenutzer_merkliste() {
-        return benutzer_merkliste;
-    }
-
     public void setBenutzername(String benutzername) {
         this.benutzername = benutzername;
     }
@@ -127,10 +123,5 @@ public class Benutzer {
     public void setAnzeige(Anzeige anzeige) {
         this.anzeige = anzeige;
     }
-
-    public void setBenutzer_merkliste(BenutzerMerk benutzer_merkliste) {
-        this.benutzer_merkliste = benutzer_merkliste;
-    }
-   
    
 }
