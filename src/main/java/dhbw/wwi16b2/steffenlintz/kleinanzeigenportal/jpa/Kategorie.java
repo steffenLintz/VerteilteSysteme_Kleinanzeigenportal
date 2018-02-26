@@ -28,5 +28,37 @@ public class Kategorie {
     
     @OneToMany 
     Kategorie kategorie = null;
+
+    public String getSlug() {
+        return slug;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Anzeige getAnzeige() {
+        return anzeige;
+    }
+
+    public Kategorie getKategorie() {
+        return kategorie;
+    }
+
+    public void setSlug(String slug) {
+        this.slug = slug;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAnzeige(Anzeige anzeige) {
+        this.anzeige = anzeige;
+    }
+
+    public void setKategorie(Kategorie kategorie) {
+        this.kategorie = kategorie;
+    }
     
 }

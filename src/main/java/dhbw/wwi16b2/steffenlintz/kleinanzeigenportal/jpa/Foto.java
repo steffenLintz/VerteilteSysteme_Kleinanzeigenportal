@@ -25,5 +25,37 @@ public class Foto {
     
     @ManyToOne
     Anzeige anzeige = null;
+
+    public long getId() {
+        return id;
+    }
+
+    public String getBezeichnung() {
+        return bezeichnung;
+    }
+
+    public String getBildateien() {
+        return bildateien;
+    }
+
+    public Anzeige getAnzeige() {
+        return anzeige;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setBezeichnung(String bezeichnung) {
+        this.bezeichnung = bezeichnung;
+    }
+
+    public void setBildateien(String bildateien) {
+        this.bildateien = bildateien;
+    }
+
+    public void setAnzeige(Anzeige anzeige) {
+        this.anzeige = anzeige;
+    }
     
 }
