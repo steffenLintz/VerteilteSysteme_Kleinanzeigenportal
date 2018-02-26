@@ -30,15 +30,12 @@ public class Benutzer {
    private String email = "";
    private long telefonnummer=0;
    
-   @OneToMany(mappedBy= "")
+   @OneToMany(mappedBy= "benutzer")
    Nachricht nachricht = null;
    
    @OneToMany (mappedBy="benutzer")
    Anzeige anzeige =null;
    
-   @ManyToMany (mappedBy="benutzermerk")
-   BenutzerMerk benutzer_merkliste = null;
-
     public String getBenutzername() {
         return benutzername;
     }
