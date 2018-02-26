@@ -11,6 +11,8 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
 
+
+//Steffen ist der größste
 /**
  *
  * @author z003ne3b
